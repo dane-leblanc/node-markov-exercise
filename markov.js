@@ -48,7 +48,6 @@ class MarkovMachine {
         output.push(nextWord);
       }
     }
-    console.log(output.join(" "));
     return output.join(" ");
   }
 }
